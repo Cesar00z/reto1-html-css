@@ -1,7 +1,6 @@
 body {
-    background-color: #252525;
+    background-color: #303030;
 }
-
 
 .contenedor {
     width: 500px;
@@ -20,31 +19,35 @@ body {
     background-color: #343537;
     width: 70%;
 }
+
 .info {
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 80px 0 0 120px;
+    color:#fff;
 }
 
 .info h1 {
     margin: 0;
-    font-size: 1.18rem;
     font-family: 'Hammersmith One', sans-serif;
-    color: #fff;
+    font-size: 1.57rem;
 }
-.info  h2 {
+
+.info h2 {
     margin: 0 0 15px 0;
-    color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.68rem;
+    font-size: 0.9rem;
 }
 .info  p {
     margin: 3px 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.68rem;
-    color:#fff;
-    
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+i {
+    color:#99c5c8;
 }
 
 .border {
